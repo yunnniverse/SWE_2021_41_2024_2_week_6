@@ -46,18 +46,18 @@ else:
 ## Week 5 Assignment
 
 > '''bash
-docker exec aaa cat / etc/os-release
+docker exec aaa cat /etc/os-release
 '''
 > '''bash
-> docker exec aaa cat / etc/os-release
+> docker exec aaa cat /etc/os-release
 > '''
-> Checks the OS information inside the container aaa.
+> * Checks the OS information inside the container aaa.
 
 > '''docker exec aaa git --version'''
-> Checks the Git version inside the container aaa.
+> * Checks the Git version inside the container aaa.
 
 > '''docker exec aaa python3 --version'''
-> Checks the Python3 version inside the container aaa.
+> * Checks the Python3 version inside the container aaa.
 
 > '''docker inspect --format="{{ •HostConfig.Binds }}" aaa'''
-> Displays the host-to-container volume binding information for the container aaa.
+> * Displays the host-to-container volume binding information for the container aaa.
