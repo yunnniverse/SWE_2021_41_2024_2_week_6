@@ -45,3 +45,14 @@ else:
 
 ## Week 5 Assignment
 
+> '''docker exec aaa cat / etc/os-release'''
+>
+
+> '''docker exec aaa git --version'''
+> 
+
+> '''docker exec aaa python3 --version'''
+>
+
+> '''docker inspect --format="{{ •HostConfig.Binds }}" aaa'''
+>
