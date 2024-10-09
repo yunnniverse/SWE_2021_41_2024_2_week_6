@@ -45,13 +45,19 @@ else:
 
 ## Week 5 Assignment
 
-> ```docker exec aaa cat /etc/os-release```
+> ```bash
+> docker exec aaa cat /etc/os-release
+> ```
 > * Checks the OS information inside the container aaa.
 
-> ```docker exec aaa git --version```
+> ```bash
+> docker exec aaa git --version
+> ```
 > * Checks the Git version inside the container aaa.
 
-> ```docker exec aaa python3 --version```
+> ```bash
+> docker exec aaa python3 --version
+> ```
 > * Checks the Python3 version inside the container aaa.
 
 > ```docker inspect --format="{{ •HostConfig.Binds }}" aaa```
