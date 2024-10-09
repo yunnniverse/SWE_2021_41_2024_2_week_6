@@ -36,8 +36,6 @@ if isHappy(n):
     print("True")
 else:
     print("False")
-     ```
-
 
 
 
