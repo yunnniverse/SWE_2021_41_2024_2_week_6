@@ -74,7 +74,22 @@ LOGO=ubuntu-logo
 > docker exec aaa git --version
 > ```
 > * Checks the Git version inside the container aaa.
-> * My output : git version 2.43.0
+> My output
+>> ```bash
+>> PRETTY NAME="Ubuntu 24.04.1 LTS"
+>> NAME="Ubuntu"
+>> VERSION_ID="24.04"
+>> VERSION="24.04.1 LTS (Noble Numbat)"
+>> VERSION CODENAME=noble
+>> ID=ubuntu
+>> ID_LIKE=debian
+>> HOME_URI= "https://www.ubuntu.com/"
+>> SUPPORT_URL="https://help.ubuntu.com/"
+>> BUG_REPORT_URI="https: //bugs.launchpad.net/ubuntu/"
+>> PRIVACY_POLICY_URI= "https://www.ubuntu.com/legal/terms-and-policies/privacy-poliCy"
+>> UBUNTU CODENAME=noble
+>> LOGO=ubuntu-logo
+>> ```
 
 > ```bash
 > docker exec aaa python3 --version
