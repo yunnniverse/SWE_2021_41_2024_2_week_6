@@ -3,9 +3,9 @@
 ---
 
 ## Week 4 Assignment
-### [link of my repository](https://github.com/yunnniverse/SWE_2021_41_2024_2_week_4)
+### * [link of my repository](https://github.com/yunnniverse/SWE_2021_41_2024_2_week_4)
 
-### my code
+### * my code
 ```python
 def isHappy(n):
     arr = [False] * 2593  # 배열 초기화
@@ -35,7 +35,7 @@ if isHappy(n):
 else:
     print("False")
  ```
-### Explanation
+### * Explanation
  1. Repeatedly calculates the sum of the squares of the digits of the number.
  2. If the result is 1, it returns True, indicating the number is a happy number.
  3. If a previously encountered result reappears, it returns False to prevent an infinite loop.
