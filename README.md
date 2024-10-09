@@ -37,7 +37,11 @@
 >else:
 >    print("False")
 > ```
-
+> #### Explanation
+> 1. Repeatedly calculates the sum of the squares of the digits of the number.
+> 2. If the result is 1, it returns True, indicating the number is a happy number.
+> 3. If a previously encountered result reappears, it returns False to prevent an infinite loop.
+> 4. An array is used to store the calculated values, and if a value reappears, the loop stops.
 
 ---
 
