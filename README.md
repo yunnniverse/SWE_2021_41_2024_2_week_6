@@ -46,6 +46,9 @@ else:
 ## Week 5 Assignment
 
 > '''bash
+docker exec aaa cat / etc/os-release
+'''
+> '''bash
 > docker exec aaa cat / etc/os-release
 > '''
 > Checks the OS information inside the container aaa.
