@@ -49,18 +49,22 @@ else:
 > docker exec aaa cat /etc/os-release
 > ```
 > * Checks the OS information inside the container aaa.
+> * My output : 
 
 > ```bash
 > docker exec aaa git --version
 > ```
 > * Checks the Git version inside the container aaa.
+> * My output : 
 
 > ```bash
 > docker exec aaa python3 --version
 > ```
 > * Checks the Python3 version inside the container aaa.
+> * My output : 
 
 > ```bash
 > docker inspect --format="{{ •HostConfig.Binds }}" aaa
 > ```
 > * Displays the host-to-container volume binding information for the container aaa.
+> * My output : 
