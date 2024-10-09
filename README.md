@@ -60,5 +60,7 @@ else:
 > ```
 > * Checks the Python3 version inside the container aaa.
 
-> ```docker inspect --format="{{ •HostConfig.Binds }}" aaa```
+> ```bash
+> docker inspect --format="{{ •HostConfig.Binds }}" aaa
+> ```
 > * Displays the host-to-container volume binding information for the container aaa.
