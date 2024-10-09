@@ -6,7 +6,7 @@
 > ### link of my repository
 >>https://github.com/yunnniverse/SWE_2021_41_2024_2_week_4
 <br>
-<code>
+```python
 def isHappy(n):
     arr = [False] * 2593  # 배열 초기화
     sum = 0
@@ -35,7 +35,7 @@ if isHappy(n):
     print("True")
 else:
     print("False")
-</code>
+```
 
 
 
