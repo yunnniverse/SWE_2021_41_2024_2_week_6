@@ -49,22 +49,41 @@ else:
 > docker exec aaa cat /etc/os-release
 > ```
 > * Checks the OS information inside the container aaa.
-> * My output : 
+> * My output : PRETTY NAME="Ubuntu 24.04.1 LTS"
+NAME="Ubuntu"
+VERSION
+_ID="24.04"
+VERSION="24.04.1 LTS (Noble Numbat) "
+VERSION CODENAME=noble
+ID=ubuntu
+ID
+_LIKE=debian
+HOME
+_URI= "https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG
+REPORT_URI="https: //bugs.launchpad.net/ubuntu/"
+PRIVACY
+POLICY
+_URI= "https://www.ubuntu.com/legal/terms-and-policies/privacy-poli
+Cy"
+UBUNTU CODENAME=noble
+LOGO=ubuntu-logo
 
 > ```bash
 > docker exec aaa git --version
 > ```
 > * Checks the Git version inside the container aaa.
-> * My output : 
+> * My output : git version 2.43.0
 
 > ```bash
 > docker exec aaa python3 --version
 > ```
 > * Checks the Python3 version inside the container aaa.
-> * My output : 
+> * My output : Python 3.12.3
 
 > ```bash
 > docker inspect --format="{{ •HostConfig.Binds }}" aaa
 > ```
 > * Displays the host-to-container volume binding information for the container aaa.
-> * My output : 
+> * My output : [/Users/yunni/ossp_hostdir:/mnt/ossp_container dir]
